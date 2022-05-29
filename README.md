@@ -125,6 +125,7 @@ After everything has been setup, run the command:
 
 ## Screenshots
 
+< img src = "Images/Active.png" >
 
 
 ## References 

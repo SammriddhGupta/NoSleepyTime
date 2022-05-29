@@ -95,3 +95,11 @@ We’re going to use OpenCV for computer vision, the Dlib library for facial rec
 
 ## Screenshots
 
+
+
+## References 
+- [Real-Time Eye Blink Detection using Facial Landmarks](http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf)
+- [One Millisecond Face Alignment with an Ensemble of Regression Trees](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf)
+- [Face detection with dlib (HOG and CNN)](https://pyimagesearch.com/2021/04/19/face-detection-with-dlib-hog-and-cnn/)
+- [Drowsiness detection with OpenCV](https://pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
+- [Yawn Detection using OpenCV and Dlib](https://www.geeksforgeeks.org/yawn-detection-using-opencv-and-dlib/?ref=rp)

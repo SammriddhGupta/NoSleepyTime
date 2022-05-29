@@ -15,21 +15,24 @@ Therefore I decided to work on a detection system using facial recognition to de
 
 ## Technology Stack
 
-- OpenCV
+- **OpenCV**
+
 OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
 
-- Dlib 
+- **Dlib** 
+
 Dlib is an open source suite of applications and libraries written in C++ under a permissive Boost license. Dlib offers a wide range of functionality across a number of machine learning sectors, including classification and regression, numerical algorithms such as quadratic program solvers, an array of image processing tools, and diverse networking functionality, among many other facets.
 
-- Face_Recognition
+- **Face_Recognition**
+
 A python package that wraps Dlib’s face recognition functions into a simple, easy to use API.
 
 
 ## Features
 The detector plays an alarm when the status is detected as: 
-- drowsy - eyes slightly closed
-- sleeping - eyes fully closed
-- yawning - mouth wide open
+- **drowsy** - eyes slightly closed
+- **sleeping** - eyes fully closed
+- **yawning** - mouth wide open
 
 
 ## Working 

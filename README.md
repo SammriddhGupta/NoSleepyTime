@@ -123,17 +123,10 @@ After everything has been setup, run the command:
 ``` python Detection.py```
 
 
-## Screenshots
-
-< img src = "Images/Active.png" width=500 height=500>
-< img src = "Images/Active_Yawn.png" width=500 height=500>
-< img src = "Images/Drowsy_Yawn.png" width=500 height=500>
-< img src = "Images/Sleeping_Yawn.png" width=500 height=500>
-
-
 ## References 
 - [Real-Time Eye Blink Detection using Facial Landmarks](http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf)
 - [One Millisecond Face Alignment with an Ensemble of Regression Trees](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf)
 - [Face detection with dlib (HOG and CNN)](https://pyimagesearch.com/2021/04/19/face-detection-with-dlib-hog-and-cnn/)
 - [Drowsiness detection with OpenCV](https://pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
 - [Yawn Detection using OpenCV and Dlib](https://www.geeksforgeeks.org/yawn-detection-using-opencv-and-dlib/?ref=rp)
+- [Driver-Drowsiness-Detection](https://github.com/infoaryan/Driver-Drowsiness-Detection)

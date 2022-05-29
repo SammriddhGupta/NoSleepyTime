@@ -125,7 +125,10 @@ After everything has been setup, run the command:
 
 ## Screenshots
 
-< img src = "Images/Active.png" >
+< img src = "Images/Active.png" width=500 height=500>
+< img src = "Images/Active_Yawn.png" width=500 height=500>
+< img src = "Images/Drowsy_Yawn.png" width=500 height=500>
+< img src = "Images/Sleeping_Yawn.png" width=500 height=500>
 
 
 ## References 

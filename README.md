@@ -5,6 +5,7 @@
 
 <img src = "Images/No Sleepy Time.png" width=2000 height=500>
 
+
 ## Motivation
 
 - Many people face long nights at work. Especially truck drivers, security guards and healthcare professionals. These are jobs that are fundamental to society and to the health, wellbeing and comfort of the general population. 
@@ -12,6 +13,7 @@
 - Getting behind the wheel while feeling tired is not uncommon. It’s something most drivers have probably done. It can be incredibly dangerous, unless we find a way to warn drivers when their tiredness has become too severe and is impairing their driving.
 
 Therefore I decided to work on a detection system using facial recognition to detect drowsiness and trigger an alert before it is too late
+
 
 ## Technology Stack
 
@@ -43,6 +45,7 @@ A python package that wraps Dlib’s face recognition functions into a simple, e
 4. The date and timestamp is displayed at the bottom left of the screen
 
 5. The frame rate is displayed in fps at the bottom right of the screen
+
 
 ## Working 
 
@@ -89,28 +92,36 @@ The _get_frontal_face_detector_ function does not accept any parameters.
 A call to it returns the pre-trained HOG + Linear SVM face detector included in the dlib library.
 Dlib’s HOG + Linear SVM face detector is fast and efficient. By nature of how the Histogram of Oriented Gradients (HOG) descriptor works, it is not invariant to changes in rotation and viewing angle.
 
+
 ## Basic Flow
 
 We’re going to use OpenCV for computer vision, the Dlib library for facial recognition and the imutils package to use some functions that will help us convert the landmarks to NumPy array and make it easy for us to use. 
 
+
 ## Setup and Run
 
 - **Step 1**
-Clone the repository in your system
-```bash  git clone https://github.com/SammriddhGupta/NoSleepyTime.git ```
+Clone the repository in your system by:
 
-Or directly download the zip
+``` git clone https://github.com/SammriddhGupta/NoSleepyTime.git ```
+
+   Or directly download the zip
 
 - **Step 2**
-Download the file <b>shape_predictor_68_face_landmarks.dat</b>
+Download the file
+
+<b>shape_predictor_68_face_landmarks.dat</b>
 
 - **Step 3**
 Install all the system requirements by:
-```bash  pip install -r requirements.txt ```
+
+```  pip install -r requirements.txt ```
 
 - **Step 4**
 After everything has been setup, run the command: 
-```bash python Detection.py```
+
+``` python Detection.py```
+
 
 ## Screenshots
 

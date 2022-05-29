@@ -29,11 +29,20 @@ A python package that wraps Dlib’s face recognition functions into a simple, e
 
 
 ## Features
-The detector plays an alarm when the status is detected as: 
-- **drowsy** - eyes slightly closed
-- **sleeping** - eyes fully closed
-- **yawning** - mouth wide open
 
+1. The detector displays the following when the status is detected as: 
+- **active** - eyes open - no alert rings
+- **drowsy** - eyes slightly closed - alert rings
+- **sleeping** - eyes fully closed - alert rings
+- **yawning** - mouth wide open - alert rings
+
+2. The alert audio deos not stop playing until you stop yawning and your eyes are fully open
+
+3. You can press 'q' to escape the application and stop the detection
+
+4. The date and timestamp is displayed at the bottom left of the screen
+
+5. The frame rate is displayed in fps at the bottom right of the screen
 
 ## Working 
 
@@ -79,6 +88,8 @@ The dlib library provides two functions that can be used for face detection:
 The _get_frontal_face_detector_ function does not accept any parameters. 
 A call to it returns the pre-trained HOG + Linear SVM face detector included in the dlib library.
 Dlib’s HOG + Linear SVM face detector is fast and efficient. By nature of how the Histogram of Oriented Gradients (HOG) descriptor works, it is not invariant to changes in rotation and viewing angle.
+
+## Basic Flow
 
 We’re going to use OpenCV for computer vision, the Dlib library for facial recognition and the imutils package to use some functions that will help us convert the landmarks to NumPy array and make it easy for us to use. 
 

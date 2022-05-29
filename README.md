@@ -93,6 +93,9 @@ Dlib’s HOG + Linear SVM face detector is fast and efficient. By nature of how 
 
 We’re going to use OpenCV for computer vision, the Dlib library for facial recognition and the imutils package to use some functions that will help us convert the landmarks to NumPy array and make it easy for us to use. 
 
+## Setup
+
+
 ## Screenshots
 
 

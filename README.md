@@ -93,8 +93,24 @@ Dlib’s HOG + Linear SVM face detector is fast and efficient. By nature of how 
 
 We’re going to use OpenCV for computer vision, the Dlib library for facial recognition and the imutils package to use some functions that will help us convert the landmarks to NumPy array and make it easy for us to use. 
 
-## Setup
+## Setup and Run
 
+- **Step 1**
+Clone the repository in your system
+```bash  git clone https://github.com/SammriddhGupta/NoSleepyTime.git ```
+
+Or directly download the zip
+
+- **Step 2**
+Download the file <b>shape_predictor_68_face_landmarks.dat</b>
+
+- **Step 3**
+Install all the system requirements by:
+```bash  pip install -r requirements.txt ```
+
+- **Step 4**
+After everything has been setup, run the command: 
+```bash python Detection.py```
 
 ## Screenshots
 

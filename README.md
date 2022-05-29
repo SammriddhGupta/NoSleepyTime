@@ -42,6 +42,7 @@ There are 2 important steps in facial landmark detection:
 - Predicting the landmarks of key facial regions in the detected face.
 
 The pre-trained facial landmark detector inside the dlib library is an implementation of the paper 
+
 [One Millisecond Face Alignment with an Ensemble of Regression Trees (by Kazemi and Sullivan (2014)](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf) 
 
 The facial landmark detector which is pre-trained inside the Dlib library of python for detecting landmarks, is used to estimate the location of 68 points or (x, y) coordinates which map to the facial structures. 

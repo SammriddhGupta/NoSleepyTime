@@ -38,7 +38,7 @@ A python package that wraps Dlib’s face recognition functions into a simple, e
 - **sleeping** - eyes fully closed - alert rings
 - **yawning** - mouth wide open - alert rings
 
-2. The alert audio deos not stop playing until you stop yawning and your eyes are fully open
+2. The alert audio does not stop playing until you stop yawning and your eyes are fully open
 
 3. You can press 'q' to escape the application and stop the detection
 

@@ -2,6 +2,6 @@ dlib==19.24.0
 Flask==1.1.2
 imutils==0.5.4
 opencv_python==4.5.5.64
-scipy==1.5.2
+scipy==1.10.0
 sounddevice==0.4.4
 SoundFile==0.10.3.post1
